@@ -1,0 +1,70 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Logs and temp
+*.log
+logs/
+tmp/
+temp/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.*
+*.env
+
+# App specific
+uploads/
+media/
+staticfiles/
+asset/
+assets/
+downloads/
+videos/
+images/
+
+# Large files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.zip
+*.rar
+*.7z
+
+# Temporary and backup files
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+
+# System files
+.DS_Store
+Thumbs.db
