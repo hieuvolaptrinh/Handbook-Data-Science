@@ -1,9 +1,0 @@
-| Mode | Đọc | Ghi | Tạo mới nếu chưa có | Xóa dữ liệu cũ            | Con trỏ          |
-| ---- | --- | --- | ------------------- | ------------------------- | ---------------- |
-| `r`  | ✔️  | ❌   | ❌ (lỗi nếu chưa có) | ❌                         | Đầu file         |
-| `w`  | ❌   | ✔️  | ✔️                  | ✔️                        | Đầu file (trống) |
-| `a`  | ❌   | ✔️  | ✔️                  | ❌ (ghi thêm)              | Cuối file        |
-| `x`  | ❌   | ✔️  | ✔️ (nếu chưa có)    | ❌ (không cho tồn tại sẵn) | Đầu file (trống) |
-| `r+` | ✔️  | ✔️  | ❌                   | ❌                         | Đầu file         |
-| `w+` | ✔️  | ✔️  | ✔️                  | ✔️                        | Đầu file (trống) |
-| `a+` | ✔️  | ✔️  | ✔️                  | ❌ (ghi thêm)              | Cuối file        |
